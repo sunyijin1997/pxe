@@ -1,5 +1,5 @@
 <?php
-$directory = './'; // 设置你的文件夹路径
+$directory = './downloads/'; // 更改为你的文件夹路径
 $files = array_diff(scandir($directory), array('..', '.')); // 排除 . 和 ..
 ?>
 <!DOCTYPE html>
